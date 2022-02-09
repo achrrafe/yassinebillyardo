@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(95, 95, 95);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+.logo{
+    border-radius: 100%;
+    height: 100px;
+}
+.mm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: baseline;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: gold;
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+      
+}
+.a24{
+    width: max-content;
+    margin: auto;
+    color: gold;
+    font-size: xx-large;
+}
+.z12{
+    
+    background: url("add.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+}
+.vv{
+    display: flex;
+    flex-direction: column;
+}
+.a23{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.nav1{
+    height: min-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+#azs:disabled {
+    background: #999;
+    color: #555;
+    cursor: not-allowed;
+}
+#azs1:disabled {
+    background: #999;
+    color: #555;
+    cursor: not-allowed;
+}
+.gest1{
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    width: 40%;
+    background-color: grey;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+.gest2{
+    visibility: visible;
+    position: absolute;
+    top: 700px;
+    width: 40%;
+    background-color: grey;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+.vider{
+    background: url("vider.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+
+}
+.remove{
+    background: url("remover.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+}
+.valider{
+    background: url("valider.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+}
+.titre{
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.tap11{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.tap21{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+.tap12{
+    width: 40%;
+}
+.tap22{
+    width: 100%;
+}
+.aqw{
+    width: 40%;
+}
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px gold solid;
+}
+.tapis{
+    width: 100%;
+    height: 345px;
+}
+.tapis2{
+    width: 100%;
+    height: 300px;
+}
+
+.a3{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    justify-items: baseline;
+}
+.ide{
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+}
+.ide2{
+    font-size: x-large;
+    color: gold;
+    font-weight: bolder;
+}
+.sous{
+    text-align: center;
+    color: gold;
+    font-size: xx-large;
+}
+.aa{
+    width: 40%;
+    height: 30px;
+    color: gold;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: x-large;
+    padding-top: 0px;
+}
+.bb{
+    width: 20%;
+    background-color: gold;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+}
+.cc{
+    height: 80px;
+    background-color: black;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.ee{
+    width: 40%;
+    height: 60px;
+}
+.nn{
+    width: 30%;
+    height: 40px;
+}
+.dd{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+}
+select{
+    width: 100%;
+    background-color: gold;
+    height: 40%;
+}
+.ssa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tap13{
+    width: 20%;
+
+}
+.jj{
+    width: 80%;
+    margin-left :30px;
+    margin-bottom: 20px;
+    height: 3pc;
+    background: yellow;
+    color: black;
+    font-size: xx-large;
+}
+.qqq{
+    font-size: xx-large;
+    color: gold;
+    
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aca{
+    width:19%;
+}
+.wx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.at{ 
+    width: 40%;
+    border: 2px gold solid
+}
+.azze{
+    width: 100%;
+    height: 40%;
+}
+.aq{
+    display: flex;
+    flex-wrap: wrap;
+    height: 15%;
+    justify-content: space-around;
+}
+.a25{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#a27{
+    height: 60px;
+    width: 100%;
+    font-size: x-large;
+
+}
+.wb{
+    width: 400px;
+}
+table{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="acceuily.css">
+    <script lang="javascript" src="jav.js"></script>
+</head>
+<body>
+    <div class="p1">
+        <div class="gest1" id="gest1">
+            <form action="" class="a23">
+                <h1 class="a24">GESTION DE TAPIS 1</h1>
+                <select id="ff" size="7">
+                </select>
+                <div class="a25">
+                    
+                    <button type="button" onclick=kk() class="vider"></button>
+                    <button type="button" onclick=remover() class="remove"></button>
+                    <button type="button" onclick=valider() class="valider"></button>
+                </div>
+                <table>
+                    <tr>
+                        <td><button type="button" class="z12" id="z12" onclick=addplayer()></button></td>
+                        <td class="wb"><input	type="text"id="a27" ></td>
+                    </tr>
+                </table>
+                
+                
+
+            </form>
+        </div>     
+        <div class="tap11">
+            <h2 class="sous">TAPIS 1</h2>
+            <div class="cc">
+                <p  class="aa" id="player1">_</p>
+                <p  class="bb" >VS</p>
+                <p  class="aa" id="player2">_</p>
+            </div>
+            <div class="dd">
+                <button class="ee" type="button" onclick=lose1()>LOSE</button>
+                <button type="button" class="ee" onclick=lose2()>lose</button>
+            </div>
+            <div class="dd">
+                <button class="ee" type="button" onclick=rejouer1() id="azs" >rejouer</button>
+                <button type="button" class="ee" onclick=rejouer2() id="azs1">rejouer</button>
+            </div>
+            <div class="a3">
+                <p class="ide">THE NEXT JOUEUR IS</p>
+                <p class="ide2" id="player3">__</p>
+                <button type="button" class="nn" onclick=decaler()>decaler</button>
+            </div>
+            
+        </div>
+        <div class="tap12"><img src="tap.gif" class="tapis"></div>
+        <div class="tap13">
+            <select size="5">
+                <option value="a"></option>
+                <option value="aa"></option>
+                <option value="aa"></option>
+                <option value="a"></option>
+                <option value=""></option>
+            </select>
+            <img src="vid1.gif" class="aze">
+            <div class="aq">
+                <img src="play.gif" alt="">
+                <img src="stop.gif" alt="">
+                <img src="pre.gif" alt="">
+                <img src="play.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wx">
+        <div class="at">
+            <div class="tap22"><img src="tap.gif" class="tapis"></div>
+            <div class="gest2" id="gest2">
+                <form action="" class="a23">
+                    <h1 class="a24">GESTION DE TAPIS 2</h1>
+                    <select id="ff" size="7">
+                    </select>
+                    <div class="a25">
+                        
+                        <button type="button" onclick=kk2() class="vider"></button>
+                        <button type="button" onclick=remover2() class="remove"></button>
+                        <button type="button" onclick=valider2() class="valider"></button>
+                    </div>
+                    <table>
+                        <tr>
+                            <td><button type="button" class="z12" id="z12" onclick=addplayer()></button></td>
+                            <td class="wb"><input	type="text"id="a27" ></td>
+                        </tr>
+                    </table>
+                    
+                    
+    
+                </form>
+            </div>  
+            <div class="tap21">
+                <h2 class="sous">TAPIS 1</h2>
+                <div class="cc">
+                    <p for="" class="aa">_</p>
+                    <p for="" class="bb">VS</p>
+                    <p for="" class="aa">_</p>
+                </div>
+                <div class="dd">
+                    <div>
+                        <button class="ee">LOSE</button><br>
+                        <button class="ee">lose</button>
+                    </div>
+                    <div>
+                        <button class="ee">LOSE</button>
+                        <button class="ee">lose</button>
+                    </div>
+                </div>
+                <div class="a3">
+                    <p class="ide">THE NEXT JOUEUR IS</p>
+                    <p class="ide2">__</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="at">
+            <div class="tap22"><img src="tap.gif" class="tapis"></div>
+            <div class="tap21">
+                <h2 class="sous">TAPIS 1</h2>
+                <div class="cc">
+                    <p for="" class="aa">_</p>
+                    <p for="" class="bb">VS</p>
+                    <p for="" class="aa">_</p>
+                </div>
+                <div class="dd">
+                    <button class="ee">LOSE</button>
+                    <button class="ee">lose</button>
+                </div>
+                <div class="a3">
+                    <p class="ide">THE NEXT JOUEUR IS</p>
+                    <p class="ide2">__</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="aca">
+            <p class="qqq">15:13:15</p>
+            <button class="jj" onclick=tapis1() type="button">TAPIS1</button>
+            <button class="jj">tapis2</button>
+            <button class="jj">tapis1</button>
+            <button class="jj">tapis1</button>
+            <button class="jj">tapis1</button>
+            <button class="jj">tapis1</button>
+
+        </div>
+        
+
+        
+    </div>    
+    <div></div>>
+       
+       
+
+</body>
+<script>
+    
+var players1=[]
+var tmp
+
+function decaler(){
+    tmp=players1[2]
+    players1[2]=players1[3]
+    players1[3]=tmp
+    document.getElementById("player3").textContent=players1[2]
+    for (var i=0;i<c;i++){
+        myNode.innerHTML+="<option>"+players1[i]+"</option>";
+    }
+
+    
+
+}
+function rejouer1(){
+    if (players1.length>=4){
+        document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+        var k=players1.shift(0);
+    
+        document.getElementById("player1").textContent=players1[0]
+        document.getElementById("player2").textContent=players1[1]
+        document.getElementById("player3").textContent=players1[2]
+        players1.push(k)
+        document.getElementById("ff").innerHTML+="<option>"+k+"</option>"
+    }
+    else{ 
+        if (players1.length==3){
+            document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+            var k=players1.shift(0);
+            players1.push(k)
+            document.getElementById("player1").textContent=players1[0];
+            document.getElementById("player2").textContent=players1[1];
+            document.getElementById("player3").textContent=players1[2];
+            document.getElementById("ff").innerHTML+="<option>"+k+"</option>"
+           
+            
+
+            
+
+            
+            
+        }
+        else{
+            if (players1.length==2){
+                
+                var k=players1.shift(0);
+                players1.push(k)
+    
+                document.getElementById("player1").textContent=players1[0]
+                document.getElementById("player2").textContent=players1[1]
+                document.getElementById("player3").textContent='__'
+                document.getElementById("ff").innerHTML+="<option>"+k+"</option>"
+
+
+            }
+            else{
+                if (players1.length==1){
+                    players1.shift(0);
+    
+                    document.getElementById("player1").textContent="__"
+                    document.getElementById("player2").textContent='__'
+                    document.getElementById("player3").textContent='__'
+                }
+            }
+        }
+    }
+    
+}
+function rejouer2(){
+    if (players1.length>=4){
+        document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[2]);
+        var e=players1.remove
+        alert(e)
+        players1.push(e)
+    
+        document.getElementById("player2").textContent=players1[1]
+        document.getElementById("player3").textContent=players1[2]
+        document.getElementById("ff").innerHTML+="<option>"+k+"</option>"
+        
+    }
+    else{
+        if (players1.length==3){
+            document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+            players1.shift(1);
+    
+            document.getElementById("player2").textContent=players1[1];
+            document.getElementById("player3").textContent='__';
+
+            
+
+            
+            
+        }
+        else{
+            if (players1.length==2){
+                players1.shift(1);
+    
+                document.getElementById("player2").textContent='__'
+                document.getElementById("player3").textContent='__'
+
+            }
+            else{
+                if (players1.length==1){
+                    players1.shift(0);
+    
+                    document.getElementById("player1").textContent="__"
+                    document.getElementById("player2").textContent='__'
+                    document.getElementById("player3").textContent='__'
+                }
+            }
+        }
+    }
+    
+}
+
+
+function hh(){
+    var p=document.getElementById("a").value;
+    var h="achraf";
+    
+    if (h==p){
+        alert("correct");
+        window.location.replace("acceuily.html");
+
+    }
+}
+function hide(){
+    var po=document.getElementById("aqw");
+    var pa=document.getElementById("a5")
+    po.style.visibility="visible"
+    pa.style.visibility="hidden"
+}
+
+function hide(){
+    var po=document.getElementById("aqw");
+    var pa=document.getElementById("a5")
+    po.style.visibility="visible"
+    pa.style.visibility="hidden"
+}
+
+
+
+
+function valider(){
+    var t=document.getElementById("gest1")
+    t.style.visibility="hidden"
+}
+function tapis1(){
+    
+    var players1=[];
+    c=players1.length
+
+    var t=document.getElementById("gest1")
+    t.style.visibility="visible"
+    
+    for (var i=0;i<c;i++){
+        document.getElementById("ff").innerHTML+="<option>"+players1[i]+"</option>";
+    }
+    var g=document.getElementById("z12")
+    
+    
+}
+function addplayer(){
+        
+    var player=document.getElementById("a27").value;
+    players1.push(player)
+    document.getElementById("ff").innerHTML+="<option id=\""+player+"\">" +player+ "</option>";
+    document.getElementById("player1").textContent=players1[0]
+    document.getElementById("player2").textContent=players1[1]
+    document.getElementById("player3").textContent=players1[2]
+}
+function lose1(){
+    if (players1.length>=4){
+        document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+        players1.shift(0);
+    
+        document.getElementById("player1").textContent=players1[0]
+        document.getElementById("player2").textContent=players1[1]
+        document.getElementById("player3").textContent=players1[2]
+        
+    }
+    else{
+        if (players1.length==3){
+            document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+            players1.shift(0);
+    
+            document.getElementById("player1").textContent=players1[0];
+            document.getElementById("player2").textContent=players1[1];
+            document.getElementById("player3").textContent='__';
+
+            
+
+            
+            
+        }
+        else{
+            if (players1.length==2){
+                players1.shift(0);
+                document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+    
+                document.getElementById("player1").textContent=players1[0]
+                document.getElementById("player2").textContent='__'
+                document.getElementById("player3").textContent='__'
+                var f=document.getElementById("azs")
+                f.disabled = "disabled"
+                var f=document.getElementById("azs1")
+                f.disabled = "disabled"
+                
+
+            }
+            else{
+                if (players1.length==1){
+                    players1.shift(0);
+                    document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+                    document.getElementById("player1").textContent="__"
+                    document.getElementById("player2").textContent='__'
+                    document.getElementById("player3").textContent='__'
+                }
+            }
+        }
+    }
+    
+}
+function lose2(){
+    if (players1.length>=4){
+        document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+        players1.shift(1);
+    
+        document.getElementById("player2").textContent=players1[1]
+        document.getElementById("player3").textContent=players1[2]
+        
+    }
+    else{
+        if (players1.length==3){
+            document.getElementById('ff').removeChild(document.getElementById('ff').getElementsByTagName('option')[0]);
+            players1.shift(1);
+    
+            document.getElementById("player2").textContent=players1[1];
+            document.getElementById("player3").textContent='__';
+
+            
+
+            
+            
+        }
+        else{
+            if (players1.length==2){
+                players1.shift(1);
+    
+                document.getElementById("player2").textContent='__'
+                document.getElementById("player3").textContent='__'
+
+            }
+            else{
+                if (players1.length==1){
+                    players1.shift(0);
+    
+                    document.getElementById("player1").textContent="__"
+                    document.getElementById("player2").textContent='__'
+                    document.getElementById("player3").textContent='__'
+                }
+            }
+        }
+    }
+    
+}
+function remover(){
+    var yourSelect = document.getElementById("ff");
+    document.getElementById('ff').removeChild(document.getElementById('ff').selectedOptions[0])
+}
+function kk(){
+    const myNode = document.getElementById("ff");
+    myNode.textContent = '';
+    players1=[]
+    document.getElementById("player1").textContent="__"
+    document.getElementById("player2").textContent='__'
+    document.getElementById("player3").textContent='__'
+
+}
+    
+</script>
+</html>
